@@ -1,23 +1,7 @@
-nav.menu {
-  width: 300px;
-  background-color: gray;
-  text-align: center;
+td:nth-child(odd) {
+  background-color: red;
 }
 
-nav.menu a {
-  text-decoration: none;
-  color: black;
-}
-nav.menu .active {
-  color: white;
-}
-
-nav.menu div:first-child {
-  background-color: black;
-  padding: 1rem;
-  color: white;
-}
-
-nav.menu div {
-  padding: 1rem;
+td:nth-child(even) {
+  background-color: yellow;
 }
