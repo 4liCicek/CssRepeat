@@ -1,11 +1,3 @@
-table {
-  font-family: "Raleway", sans-serif;
-}
-
-td:nth-child(odd) {
-  background-color: red;
-}
-
-td:nth-child(even) {
-  background-color: yellow;
+ul li a:link {
+  color: red;
 }
