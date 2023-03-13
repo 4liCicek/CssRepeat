@@ -1,0 +1,28 @@
+nav.menu {
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  background-color: aqua;
+  width: 300px;
+}
+
+nav.menu ul {
+  list-style-type: "❤️";
+  padding: 1rem;
+  list-style-position: inside;
+}
+
+nav.menu a {
+  text-decoration: none;
+  font-weight: 400;
+  color: black;
+  padding: 0 0.5rem;
+}
+
+nav.menu a:hover {
+  background-color: rgb(127, 225, 255);
+  color: red;
+}
+
+nav.menu li {
+  padding: 0.3rem;
+}
