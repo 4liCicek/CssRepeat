@@ -1,0 +1,11 @@
+.inl {
+  display: inline;
+}
+
+.blc {
+  display: block;
+}
+
+.inl-blc {
+  display: inline-block;
+}

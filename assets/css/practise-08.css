@@ -1,0 +1,11 @@
+.menu:hover ul {
+  display: block;
+}
+
+.menu ul {
+  display: none;
+}
+
+.menu {
+  display: inline-block;
+}

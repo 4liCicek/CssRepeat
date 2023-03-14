@@ -1,0 +1,14 @@
+input[type="text"] {
+  background-color: aliceblue;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+input[type="text"]:focus {
+  background-color: aquamarine;
+  color: black;
+}
+
+.liste li:first-child {
+  font-weight: bold;
+}
