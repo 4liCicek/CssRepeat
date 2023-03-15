@@ -1,0 +1,12 @@
+.liste li::marker {
+  color: blue;
+  font-size: 3rem;
+}
+
+.about span::before {
+  content: "🔥";
+}
+
+.about span::after {
+  content: "🔥";
+}

@@ -1,0 +1,7 @@
+.chk-mode:checked + .content {
+  background-color: red;
+}
+
+.chk-mode {
+  display: none;
+}
