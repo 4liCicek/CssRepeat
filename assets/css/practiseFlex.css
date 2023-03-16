@@ -1,0 +1,38 @@
+header {
+  background-color: red;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main {
+  background-color: orange;
+  flex: 4 1 500px;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+aside {
+  background-color: gray;
+  flex: 1 1 200px;
+  padding: 1rem;
+}
+
+aside .kutu {
+  background-color: aqua;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+footer {
+  background-color: rgb(49, 47, 47);
+  display: flex;
+  padding: 2rem;
+  justify-content: space-around;
+  color: white;
+}
+
+.content {
+  display: flex;
+  min-height: 50vh;
+}
