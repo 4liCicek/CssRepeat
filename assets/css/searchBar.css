@@ -1,0 +1,55 @@
+.input-group1 {
+  display: inline-block;
+  position: relative;
+}
+
+.input-group1 input {
+  border: 1px solid black;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.input-group1 input:focus {
+  outline: 1px solid red;
+  border: 1px solid red;
+}
+
+.input-group1 i {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 1.3rem;
+}
+
+.input-group2 {
+  display: inline-block;
+  position: relative;
+}
+
+.input-group2 input {
+  padding: 0.5rem 5rem 0.5rem 1rem;
+  border-radius: 5rem;
+  border: 1px solid black;
+}
+
+.input-group2 input:focus {
+  outline: 1px solid blue;
+  border: 1px solid blue;
+}
+
+.input-group2 button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 5rem;
+  border: 1px solid black;
+  padding: 0 1rem;
+  cursor: pointer;
+  background-image: linear-gradient(to bottom, green, red);
+  color: wheat;
+}
+
+.input-group2 button:hover {
+  background-image: linear-gradient(to top, green, red);
+}
