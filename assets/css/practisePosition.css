@@ -40,21 +40,58 @@ nav.navbar img {
   width: 200px;
   height: auto;
 }
+nav.navbar .switch {
+  display: none;
+}
+@media (max-width: 769px) {
+  nav.navbar .switch:checked + ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transform: translateY(100%);
+    bottom: 0;
+
+    right: 0;
+    background-color: bisque;
+    box-shadow: -3px 3px 10px gray;
+    padding: 1rem0;
+    opacity: 0.9;
+  }
+}
+
+nav.navbar label {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 769px) {
+  nav.navbar label {
+    display: none;
+  }
+}
 
 nav.navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 1rem;
-  align-items: center;
 }
 
+@media (max-width: 768px) {
+  nav.navbar ul {
+    display: none;
+  }
+}
 nav.navbar a {
   color: var(--color2);
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
   display: inline-block;
+}
+@media (max-width: 769px) {
+  nav.navbar a {
+    display: block;
+    padding: 0.5rem 2rem;
+  }
 }
 
 nav.navbar a:hover {
@@ -98,4 +135,8 @@ nav.navbar a:hover {
 
 .whatsapp-logo a {
   color: green;
+}
+
+main {
+  padding: 1rem;
 }
